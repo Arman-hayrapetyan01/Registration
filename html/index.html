@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar_anim_effect_container">
+            <marquee behavior="alternate" scrollamount="5" direction="right" style="transition: 0.5s;">
+                <div class="navbar_anim_cont">
+                    <div class="navbar_anim_effect" style="background-color: #00f;" ></div>
+                    <div class="navbar_anim_effect" style="background-color: #f00;" ></div>
+                    <div class="navbar_anim_effect" style="background-color: #ff0;" ></div>
+                    <div class="navbar_anim_effect" style="background-color: #f00;" ></div>
+                    <div class="navbar_anim_effect" style="background-color: #00f;" ></div>
+                </div>
+            </marquee>
+        </div>
+        <nav class="navbar">
+                <div class="navbar_text">
+                    <span class="navbar_span">
+                        <img id="navbar_span_img" src="../img/SeriousLogo.png" alt="imgWebSerious logo" class="navbar_span_img">
+                    </span>
+                </div>
+                <div class="navbar_btn_box">
+                    <button class="navbar_btn1" id="navbar_btn1">Login</button>
+                    <button class="navbar_btn2" id="navbar_btn2">Registration</button>
+                </div>
+        </nav>
+        <div class="container_anim_effect">
+            <div class="rotate_anim_effect effect1">
+                <div class="boxs_for_anim_effect" style="background-color: #00f;" ></div>
+            </div>
+            <div class="rotate_anim_effect effect2">
+                <div class="boxs_for_anim_effect" style="background-color: #f00;" ></div>
+            </div>
+            <div class="rotate_anim_effect effect3">
+                <div class="boxs_for_anim_effect" style="background-color: #ff0;" ></div>
+            </div>
+            <div class="rotate_anim_effect effect4">
+                <div class="boxs_for_anim_effect" style="background-color: #ba00ab;" ></div>
+            </div>
+
+            <div class="rotate_anim_effect effect5">
+                <div class="boxs_for_anim_effect" style="background-color: #19191b;box-shadow: 0px 0px 5px 5px #fff;" ></div>
+            </div>
+
+            <div class="rotate_anim_effect effect6">
+                <div class="boxs_for_anim_effect" style="background-color: #008000;" ></div>
+            </div>
+
+            <div id="login_signup_container">
+                <div class="login_container" id="login_box">
+                    <h1 style="color: #111010;text-shadow: 0px 0px 5px #fff;">Login Form</h1>
+                    <form action="#">
+                        <input type="email" name="" id="login_email" class="inputs login_inputs" placeholder="Email">
+                        <input type="password" name="" id="password_login" class="inputs login_inputs" placeholder="Password">
+                        <span id="btn_eyes3" class="btn_close_open_eyes">
+                            <i class="fa fa-eye eyes_open" aria-hidden="true" id="eyes_open3"></i>
+                            <i class="fa fa-eye-slash eyes_close " aria-hidden="true" id="eyes_close3"></i>
+                        </span>
+                        <button id="login_btn" class="login_btn">Login</button>
+                    </form>
+                </div>
+                <div class="registr_container" id="signup_box">
+                    <h1 style="color: #111010;text-shadow: 0px 0px 5px #fff;">SignUp Form</h1>
+                    <form action="#">
+                        <input type="text" id="name_inp" class="inputs" placeholder="Name">
+                        <input type="text" id="surname_inp" class="inputs"placeholder="Username">
+                        <input type="email" name="" id="email_inp" class="inputs" placeholder="Mail">
+                        <label>
+                            <input type="password" name="" id="password_inp1" class="inputs"  placeholder="Password">
+                            <span id="btn_eyes1" class="btn_close_open_eyes">
+                                <i class="fa fa-eye eyes_open" id="eyes_open1" aria-hidden="true"></i>
+                                <i class="fa fa-eye-slash eyes_close" id="eyes_close1" aria-hidden="true"></i>
+                            </span>
+                        </label>
+                        <input type="password" name="" id="password_inp2" class="inputs"  placeholder="Confirm Password">
+                        <span id="btn_eyes2" class="btn_close_open_eyes">
+                            <i class="fa fa-eye eyes_open" aria-hidden="true" id="eyes_open2"></i>
+                            <i class="fa fa-eye-slash eyes_close " aria-hidden="true" id="eyes_close2"></i>
+                        </span>
+                        <button class="registr_btn" id="regist_btn">SIGNUP</button>
+                    </form>
+                </div>
+                <div id="rezult_login_signup">
+                    <h1 id="user_rezult_name"></h1>
+                    <h1 id="user_rezult_username"></h1>
+                    <h1 id="user_rezult_password"></h1>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
